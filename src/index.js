@@ -1,7 +1,7 @@
-import { insertionSort } from "../src/insertionSort.js";
-import { selectionSort } from "../src/selectionSort.js";
-import {bubbleSort} from "../src/bubbleSort.js";
-import {takeSpeedValue} from "../src/takeDelayTime.js";
+import { insertionSort } from "./insertionSort.js";
+import { selectionSort } from "./selectionSort.js";
+import {bubbleSort} from "./bubbleSort.js";
+import {takeSpeedValue} from "./takeDelayTime.js";
 // import {mergeSort} from "../src/mergeSort.js";
 // import {quickSort} from "../src/quickSort.js";
 
