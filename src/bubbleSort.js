@@ -1,4 +1,4 @@
-import { speed } from "../src/takeDelayTime.js";
+import { speed } from "./takeDelayTime.js";
 //Function to swap two divs.
 function swap(el1,el2)
 {
