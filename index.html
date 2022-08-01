@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sorting Visualizer</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-warning">
+
+            <div class="container-fluid">
+                <div id="sort-title" class="justify-content-end">
+                    <h1 id="text">Sorting Visualizer</h1>
+                </div>
+                <button type="button" id="new-Array" class="btn  newArray btn-danger btn-light button">New
+                    Array</button>
+
+
+                <div class="row" id="input">
+                    <span id="size">Size
+                        <input id="arr_sz" type="range" min="5" max="100" step=1 value=60>
+                    </span>
+                    <span id="speed">Speed
+                        <input id="speed_input" type="range" min="20" max="300" stepDown=10 value=60>
+                    </span>
+                </div>
+
+                <button type="button" id="bubble-sort" class=" btn btn-light button">Bubble Sort</button>
+                <button type="button" id="selection-sort" class="btn btn-light button">Selection Sort</button>
+                <button type="button" id="insertion-sort" class="btn btn-light button">Insertion Sort</button>
+                <button type="button" id="quick-sort" class="btn btn-light button">Quick Sort</button>
+                <button type="button" id="merge-sort" class="btn btn-light button">Merge Sort</button>
+
+            </div>
+        </nav>
+        <div id="mainbox">
+            <div id="bars" class="flex-container">
+            </div>
+        </div>
+        <link rel="stylesheet" href="../src/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script type="module" src="../src/index.js" defer></script>
+
+    </body>
+
+</html>
