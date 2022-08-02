@@ -56,7 +56,7 @@ console.log("clicked");
 
 
 let delayElement = document.querySelector('#speed_input');
-let delay = 0;
+let delay = 10;
 
 // Event listener to update delay time 
 delayElement.addEventListener('input', function(){

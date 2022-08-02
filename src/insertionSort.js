@@ -48,7 +48,7 @@ async function insertionSort(n)
             swap(ell1,ell2); 
             hole = hole - 1;  
         } 
-        await delay(sleep);
+        
             
         document.getElementsByClassName("barStyle")[hole].style.background="green"; 
     }       
