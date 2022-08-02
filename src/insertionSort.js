@@ -1,4 +1,4 @@
-
+import { speed } from "./takeDelayTime.js";
 
 
 //Function to swap two divs.
@@ -39,7 +39,7 @@ async function insertionSort(n)
         document.getElementsByClassName("barStyle")[hole].style.background="red";
         while (hole > 0 && (parseInt(document.getElementsByClassName("barStyle")[hole-1].style.height)>value)) 
         {   
-            await delay(100);
+            await delay(speed);
             
             document.getElementsByClassName("barStyle")[hole-1].style.background="red";
               document.getElementsByClassName("barStyle")[hole].style.background="green"; 
