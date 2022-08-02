@@ -1,6 +1,7 @@
 # SortingViz
-This is the website to visualize the sorting algorithms.
+This is the website to visualize the distinct sorting algorithms.
 you can look to the deployed website here:
+https://bindingsoul.github.io/SortingViz/
 
 # Step 1.
 *Click new array and select the size of the array
